@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-hero: #06281e;
+}
+
+html, body {
+  @apply h-full scroll-smooth;
+}
+
+body {
+  @apply text-gray-900 antialiased;
+}
+
+/* Buttons */
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-full bg-emerald-500 px-6 py-3 text-white font-semibold hover:bg-emerald-600 transition;
+}
+.btn-outline {
+  @apply inline-flex items-center justify-center rounded-full border border-gray-300 px-5 py-2.5 text-sm font-medium hover:bg-gray-50 transition;
+}
+
+/* Card */
+.card {
+  @apply rounded-2xl border border-gray-200 bg-white shadow-sm transition hover:shadow-md;
+}
+
+/* Gradient text for AI */
+.ai-gradient {
+  background: linear-gradient(90deg, #1ddf76 0%, #46e0f0 35%, #a96dfa 70%, #f472b6 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
