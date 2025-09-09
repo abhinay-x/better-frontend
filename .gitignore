@@ -1,5 +1,8 @@
 # Node / Next.js
+# Dependencies
 node_modules/
+
+# Next.js
 .next/
 .turbo/
 .vercel/
